@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  color: whitesmoke;
+}
+
+.large-font {
+  font-size: 160px;
+}
+
+.medium-font {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  /* border: solid; */
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  /* padding: 10px; */
+  /* width: 300px; */
+  /* border: solid; */
+}
+
+.item-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 30px;
+  /* width: 300px; */
+  /* border: solid; */
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+  height: 30px;
+  /* padding: 5px 5px; */
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+#greeting {
+  font-size: 80px;
+}
