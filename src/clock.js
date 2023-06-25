@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const calendar = document.querySelector("#clock span:first-child");
 const times = document.querySelector("#clock span:last-child");
 const week = [
